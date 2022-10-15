@@ -186,29 +186,31 @@
                 <div class="col-lg-7 mb-5 my-lg-5 py-5 pl-lg-5">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form action="mailto:choix.verre@gmail.com" method="POST">
+                            <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Veuillez entrer votre nom" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Veuillez entrer votre adresse e-mail" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Veuillez entrer un sujet" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Veuillez entrer votre message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                                <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">ENVOYER LE MESSAGE</button>
                             </div>
                         </form>
                     </div>
                 </div>
+                <!-- </form> -->
             </div>
         </div>
     </div>
