@@ -1,33 +1,22 @@
 /******* Bootstrap Theming ********/
 
-$primary: #DFB163;
-$secondary: #252531;
+$primary: #007bff;
+$secondary: #000;
 $light: #F3F6FF;
-$dark: #181818;
-
-$theme-colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "light": $light,
-    "dark": $dark,
-);
-
-$font-family-sans-serif: 'Montserrat', sans-serif;
-
-$headings-font-family: 'Oswald', sans-serif;
-
+$dark: #0A4271;
+$theme-colors: ( "primary": $primary, "secondary": $secondary, "light": $light, "dark": $dark, );
+$font-family-sans-serif: 'Montserrat',
+sans-serif;
+$headings-font-family: 'Oswald',
+sans-serif;
 $body-color: #777777;
-
 $headings-color: $secondary;
-
 $enable-responsive-font-sizes: true;
-
 $enable-rounded: false;
-
 @import "bootstrap/scss/bootstrap";
 
-
 /********** Custom CSS ************/
+
 h1,
 h2 {
     font-weight: 600 !important;
@@ -80,7 +69,6 @@ h6 {
     0% {
         transform: translateY(0);
     }
-
     100% {
         transform: translateY(-15px);
     }
@@ -90,7 +78,6 @@ h6 {
     0% {
         transform: translateY(0);
     }
-
     100% {
         transform: translateY(-15px);
     }
@@ -129,7 +116,7 @@ h6 {
 }
 
 @media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link  {
+    .navbar-dark .navbar-nav .nav-link {
         padding: 10px 15px;
     }
 }
